@@ -1,0 +1,43 @@
+body {
+    background-color: #C6EFAB;
+    color:blue;
+    font-size: 16px;
+    p {
+        font-size: 20px;
+      }
+    .active{
+        background-color: #f9f9f9;
+    }
+    .span-item{
+      span{
+        color: red;
+      }
+    }
+    .width100{
+      width: 100%;
+      height: 300px;
+    }
+    
+  }
+  .generic-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 320px;
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
+  .generic-modal input, .generic-modal textarea {
+    width: 315px;
+  }
+  .generic-modal button {
+    float: right;
+    margin: 20px 0 0 15px;
+  }
+  .generic-modal a {
+    float: right;
+    margin: 20px 0 0 15px;
+  }
+  

@@ -1,0 +1,22 @@
+// .uppy-DashboardFileCard{
+//     display: none !important;
+//   }
+// .uppy-Dashboard-innerWrap{
+//   .uppy-Dashboard-files + span:empty + span{
+//     display: none !important;
+//   }
+  // .uppy-Dashboard-files + span{
+  //   display: none !important;
+  // }
+//}
+
+.uppy-DashboardItem-name::after {
+  content: "Edit Metadata";
+  text-decoration: underline;
+  cursor: pointer;
+  color: #939393 !important;
+  display: block;
+}
+.uppy-Dashboard-inner{
+  min-height: 200px !important;
+}

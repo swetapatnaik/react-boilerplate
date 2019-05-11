@@ -1,0 +1,34 @@
+.custom-select1 select {
+    width: 400px;
+    height: 400px;
+}
+.custom-picker-list{
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    max-height: 400px;
+    min-height: 400px;
+    overflow-y: auto;
+    width:100%;
+}
+.custom-picker-list, .custom-picker-list-item, .custom-picker-list-checkbox, .custom-picker-list > ul {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+.custom-picker-list-checkbox{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.custom-picker-list > ul > li span{
+    font-weight: bold;
+}
+.picker-actions{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.picker-actions-grid{
+    position: relative;
+}
+.picker-actions button{
+    display: block;
+    margin-bottom: 10px;
+}
