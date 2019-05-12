@@ -23,7 +23,7 @@ const App = () => (
                 <Route exact path = "/" component = {Home} />
                 <Route path = "/favorites" component = {Favorites} />
                 <Route path = "/schemaform" component = {SchemaForm} />
-                <Route path = "/recipe/:id" component = {Recipe} />
+                <Route path = "/recipes" component = {Recipe} />
                 <Route path = "/formwithvalidation" component = {FormWithValidation} />
                 <Route path = "/richtexteditorexample" component = {RichTextEditorExample} />
                 <Route path = "/uppyexample" component = {UppyExample} />

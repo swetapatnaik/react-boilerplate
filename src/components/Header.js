@@ -11,7 +11,7 @@ class Header extends Component {
                     <NavLink to="/favorites" exact activeClassName="active">Favorites</NavLink>
                     <NavLink to="/schemaform" exact activeClassName="active">Schema Form</NavLink>
                     <NavLink to="/formwithvalidation" exact activeClassName="active">Material UI form with validation</NavLink>
-                    <NavLink to="/richtexteditorexample" exact activeClassName="active">richtext editor example</NavLink>
+                    <NavLink to="/recipes" exact activeClassName="active">Mock data integration</NavLink>
                 </nav>
             </header>
         );

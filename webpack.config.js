@@ -28,7 +28,14 @@ module.exports = {
   },
   devServer: {
     port: 9000,
-    historyApiFallback: true
+    historyApiFallback: true,
+    stats: 'errors-only',
+    proxy: {
+        '/api': {
+            target: 'http://localhost:20403/',
+            secure: true
+        }
+    }
   },
   module: {
     rules: [
